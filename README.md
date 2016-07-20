@@ -1,5 +1,6 @@
 # Multi-thread-Factorization-Machine
 1.A very efficient factorization machine c++ multi-thread implement，using google downpour method  
+for linear part, FTRL optimization method is used,for interaction part ,adagrad with l2 reguralization is used , only support two-order interaction
 2.in the train file , each line contains a sample, in format
 click \t impre \t feat_index1 \t val1 feat_index2 \t val2 ...  
 3.gcc4.8 surpport  
